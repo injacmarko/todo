@@ -19,7 +19,6 @@ namespace TodoApi.Controllers
         public TodoItemsController(TodoContext context)
         {
             _context = context;
-            id1 = _context.TodoItems.ToList().Last().Id + 1;
         }
 
 
@@ -94,8 +93,8 @@ namespace TodoApi.Controllers
               return Problem("Entity set 'TodoContext.TodoItems'  is null.");
           }
 
+            id1 = _context.TodoItems.ToList().Last().Id + 1;
             todoItem.Id = id1;
-            id1++;
 
             todoItem.Date = DateTime.Today.ToString("dd/MM/yyyy");
             _context.TodoItems.Add(todoItem);
