@@ -10100,11 +10100,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\praktikant_9\\Documents\\TODO\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "C:\\Users\\praktikant_9\\Documents\\TODOAPI\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "C:\\Users\\praktikant_9\\Documents\\TODO\\TodoApi\\TodoApi.csproj",
+      "projectPath": "C:\\Users\\praktikant_9\\Documents\\TODOAPI\\TodoApi\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\praktikant_9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\praktikant_9\\Documents\\TODO\\TodoApi\\obj\\",
+      "outputPath": "C:\\Users\\praktikant_9\\Documents\\TODOAPI\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\praktikant_9\\AppData\\Roaming\\NuGet\\NuGet.Config"

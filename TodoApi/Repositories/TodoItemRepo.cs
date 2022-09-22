@@ -23,8 +23,6 @@ namespace TodoApi.Repositories
 
         public void AddTodoItem(TodoItem todoItem)
         {
-            long id = _context.TodoItems.ToList().Last().Id + 1;
-            todoItem.Id = id;
             todoItem.Date = DateTime.Now.ToString("dd/MM/yyyy");
             
             _context.TodoItems.Add(todoItem);
